@@ -1,0 +1,15 @@
+{
+  "name": "structuredclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "structedClone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet -x \"clear;node\" structuredclone.js"
+  },
+  "author": "Chris Laughlin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
