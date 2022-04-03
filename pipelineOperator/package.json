@@ -1,0 +1,22 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet -x \"clear;npx babel-node pipelineOperator.js\""
+  },
+  "author": "Chris Laughlin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-proposal-pipeline-operator": "^7.17.6",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "babel-node": "^0.0.1-security"
+  }
+}
