@@ -1,0 +1,16 @@
+{
+  "name": "groupby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet -x \"clear;node\" groupBy.js"
+  },
+  "author": "Chris Laughlin",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "nodemon": "^2.0.15"
+  }
+}
