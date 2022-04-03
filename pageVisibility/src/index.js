@@ -1,9 +1,5 @@
 function handleVisibilityChange() {
-    if (document.visibilityState === "hidden") {
-        console.log('Page is hidden')
-    } else {
-        console.log('Page is visible')
-    }
+    console.log('Do something')
 }
 
 document.addEventListener("visibilitychange", handleVisibilityChange);
