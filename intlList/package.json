@@ -1,0 +1,16 @@
+{
+  "name": "intllist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet -x \"clear;npx ts-node intlList.ts\""
+  },
+  "author": "Chris Laughlin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  }
+}
