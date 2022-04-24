@@ -1,3 +1,4 @@
+const { log } = require('chrislaughlin-logger/index');
 import { match, P } from 'ts-pattern';
 
 import {
@@ -11,7 +12,7 @@ const processClothes = (item: ClothingItem) => {
     
 }
 
-console.log('Pattern Matching');
+log('Pattern Matching');
 
 processClothes(blueShirt);
 processClothes(skinnyJeans);

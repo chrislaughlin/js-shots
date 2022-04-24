@@ -2,15 +2,22 @@
   "name": "groupby",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "groupBy.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --quiet -x \"clear;node\" groupBy.js"
+    "start": "nodemon --quiet -x \"clear;node\" groupBy.js",
+    "watch": "parcel watch --log-level=verbose"
   },
   "author": "Chris Laughlin",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.0.1",
+    "chrislaughlin-logger": "^1.0.5",
     "core-js": "^3.21.1",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
   }
 }

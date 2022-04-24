@@ -17,6 +17,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "babel-node": "^0.0.1-security"
+    "babel-node": "^0.0.1-security",
+    "chrislaughlin-logger": "^1.0.5"
   }
 }

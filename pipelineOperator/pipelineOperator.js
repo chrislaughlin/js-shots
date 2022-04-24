@@ -1,3 +1,6 @@
+const { log } = require('chrislaughlin-logger/index');
+log('Pipeline operator');
+
 const double = num => num * 2
 const add9 = num => num + 9
 const subtract3 = num => num - 3

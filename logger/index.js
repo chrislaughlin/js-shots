@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+const chalk = require('chalk');
 
 const COLORS = [
     chalk.hex('#fe6c11'),
@@ -19,4 +19,4 @@ const log = (...args) => {
     console.log(COLORS[color](...processedArgs))
 }
 
-export default log;
+module.exports = { log };

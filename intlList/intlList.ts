@@ -1,15 +1,17 @@
+const { log } = require('chrislaughlin-logger/index');
+
 const items: string[] = [
     'Wallet',
     'Watch',
     'Keys'
 ];
 
-console.log('Simple Join')
+log('Simple Join')
 
 
 const joinItems = (list:string[])  => {
     
 }
-console.log('Reduce Join')
+log('Reduce Join')
 
-console.log('Intl List')
+log('Intl List')

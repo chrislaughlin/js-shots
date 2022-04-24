@@ -1,4 +1,4 @@
-import log from './index.js';
+const log = require('./index');
 
 log('Test message');
 log('Test message: ', 200);
